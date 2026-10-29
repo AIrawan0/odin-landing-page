@@ -155,6 +155,44 @@ a,li{
     font-size: 28px;
 }
 
+.action{
+    height: 100%;
+    padding: 0 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+.action .box{
+    background: #3882F6;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    gap: 32px;
+    border-radius: 10px;
+}
+.action h3{
+    font-size: 28px;
+    font-weight: 900;
+}
+.action .text{
+    color: #E5E7EB;
+}
+.action p{
+    font-size: 18px;
+}
+.action button{
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 8px 24px;
+    background-color: #00000000;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 900;
+
+}
 
 .footer{
     left: 0;
@@ -165,7 +203,7 @@ a,li{
     justify-content: center;
     align-items: center;
     background-color:#1F2937;
-    height: 48px;
+    height: 84px;
     opacity: 95%;
     color: white;
 }
