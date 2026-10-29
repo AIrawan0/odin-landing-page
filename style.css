@@ -131,8 +131,29 @@ a,li{
     width: 75%;
     font-size: 18px;
     opacity: 70%;
+    text-align: justify;
+    text-align-last: center;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    height: 100%;
+    padding: 0 38vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.quote p{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: justify;
+}
+.quote h4{
+    text-align: end;
+    color: #1F2937;
+    font-size: 28px;
+}
 
 
 .footer{
