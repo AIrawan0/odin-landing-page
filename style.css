@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a,li{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header{
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    padding: 0 25vh;
+    height: 74px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.header a{
+    color: white;
+    opacity: 80%;
+    font-size: 20px;
+}
+
+.section {
+    height: 60vh;
+    /* border: 5px solid turquoise; */
+}
+
+.hero{
+    background-color: #1F2937;
+    height: 100%;
+    padding: 0 25vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+.hero-text{
+    width: 50%;
+}
+.hero-text h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.hero-text p{
+    color: #E5E7EB;
+    opacity: 80%;
+    font-size: 18px;
+}
+.hero-text button{
+    padding: 8px 30px;
+    margin: 16px 0;
+    color: white;
+    background: #3882F6;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.hero-image{
+    background-color: lightslategray;
+    min-height: 60%;
+    width: 48%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.randinfo{
+    height: 100%;
+    padding: 0 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.randinfo .title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.randinfo .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.randinfo .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.randinfo .card-image{
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    width: 75%;
+    aspect-ratio: 1/1;
+    margin-bottom: 8px;
+}
+.randinfo .card-text{
+    text-align: center;
+    width: 75%;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+
+
+.footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937;
+    height: 48px;
+    opacity: 95%;
+    color: white;
+}
